@@ -1,0 +1,137 @@
+/* Main chatbot container */
+.chatbot-box {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #eef2ff, #d9e4ff);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.chatbot-box h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Textarea input */
+.chatbot-box textarea {
+  width: 95%;
+  min-height: 100px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  resize: vertical;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.chatbot-box textarea:focus {
+  border-color: #007bff;
+}
+
+/* Send button */
+.chatbot-box button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chatbot-box button:hover {
+  background-color: #0056b3;
+}
+
+.chatbot-box button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Reply area */
+.chatbot-reply {
+  margin-top: 2rem;
+  background-color: #f9f9ff;
+  padding: 1.25rem;
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Styling markdown elements */
+.chatbot-reply strong {
+  color: #222;
+}
+
+.chatbot-reply em {
+  color: #555;
+}
+
+.chatbot-reply code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.chatbot-reply pre {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-family: 'Courier New', monospace;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem; /* Add this line */
+}
+
+.back-button {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
+
+/* Typing animation */
+.typing-indicator {
+  font-style: italic;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.dots::after {
+  content: '';
+  display: inline-block;
+  animation: dots 1.5s steps(3, end) infinite;
+}
+
+@keyframes dots {
+  0% { content: ''; }
+  33% { content: '.'; }
+  66% { content: '..'; }
+  100% { content: '...'; }
+}

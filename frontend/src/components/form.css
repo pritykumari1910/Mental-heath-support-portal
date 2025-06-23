@@ -1,0 +1,126 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-box button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dashboard {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .dashboard button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   */
+
+
+
+   body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-box {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .form-box input,
+  .form-box textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-box button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-box button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+  /* Form container styles */
+
+  
+  /* Back to Dashboard button (with arrow) */
+  .back-to-dashboard {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .back-to-dashboard:hover {
+    text-decoration: underline;
+  }
+  .post-actions {
+    margin-top: 10px;
+  }
+  
+  .post-actions button {
+    margin-right: 8px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  

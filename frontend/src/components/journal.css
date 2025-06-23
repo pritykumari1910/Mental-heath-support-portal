@@ -1,0 +1,79 @@
+/* journal.css */
+
+.form-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #f7c4f7, #d7e3f4);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.back-to-dashboard {
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.back-to-dashboard:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .form-box {
+    padding: 15px;
+  }
+  textarea {
+    font-size: 14px;
+  }
+  button {
+    padding: 10px 20px;
+  }
+}
+
